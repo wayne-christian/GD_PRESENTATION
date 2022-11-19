@@ -10,12 +10,12 @@
 
           // Learn about plugins: https://revealjs.com/plugins/
           plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-         // multiplex: {
+         multiplex: {
             // Example values. To generate your own, see the socket.io server instructions.
-          //  secret: null, // null so the clients do not have control of the master presentation
-          //  id: '1ea875674b17ca76', // id, obtained from socket.io server
-          //  url: 'https://reveal-multiplex.glitch.me/' // Location of socket.io server
-         // },
+          secret: null, // null so the clients do not have control of the master presentation
+          id: '1ea875674b17ca76', // id, obtained from socket.io server
+          url: 'https://reveal-multiplex.glitch.me/' // Location of socket.io server
+          },
 
           // Don't forget to add the dependencies
           dependencies: [{
