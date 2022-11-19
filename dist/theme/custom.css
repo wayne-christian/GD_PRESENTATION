@@ -26,7 +26,7 @@ ul.dark li {
 	margin-top: .1em!important;
 	margin-bottom: .1em!important;
 }
-.dark-back {
+.reveal .dark-back {
 	list-style: none;
 	background-color: #111;
 	padding: .1em!important;
@@ -56,7 +56,7 @@ div.line {
 .agile {
 	background-size: 38%!important;
 }
-.highlight{
+.reveal .highlight{
     color: #E6007E;
 }
 .reveal p.bullet {
@@ -86,4 +86,29 @@ div.jobholder p, div.jobholder h3 {
 	text-align: left;
 	padding: 10px;
 	box-sizing: border-box;
+}
+.reveal .bigname{
+     background: none;
+    border: none;
+    text-align: center;
+   margin: var(--r-heading-margin);
+  color: var(--r-heading-color);
+  font-family: var(--r-heading-font);
+  font-weight: var(--r-heading-font-weight);
+  line-height: var(--r-heading-line-height);
+  letter-spacing: var(--r-heading-letter-spacing);
+  text-transform: var(--r-heading-text-transform);
+  text-shadow: var(--r-heading-text-shadow);
+  word-wrap: break-word;  
+      font-size: var(--r-heading2-size);
+    width: 100%l
+    
+}
+
+.reveal .normal{
+    font-family: var(--r-main-font);    
+}
+ .reveal .bold{
+     font-family: var(--r-heading-font);  
+    
 }

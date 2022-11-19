@@ -32,11 +32,11 @@
 
         Reveal.addEventListener('salary', function () {
           console.log('stats called!');
-          animatenum(46, '#decimals', 2);
+          animatenum(39, '#decimals', 2);
         });
         Reveal.addEventListener('jobs', function () {
           console.log('stats called!');
-          animatenum(1320, '#jobs', 0);
+          animatenum(2849, '#jobs', 0);
         });
         Reveal.addEventListener('guage', function () {
           console.log('guags called!');
@@ -110,7 +110,7 @@
               ],
               lineWidth: 0,
               minorTickInterval: null,
-              tickAmount: 2,
+              tickAmount: 1,
               title: {
                 y: 0
               },
@@ -133,8 +133,11 @@
           // The speed gauge
           var chartSpeed = Highcharts.chart('container-speed', Highcharts.merge(gaugeOptions, {
             yAxis: {
-              min: 24000,
-              max: 51000,
+              min: 0,
+              max: 70000,
+                tickPositioner: function() {
+  return [this.min, this.max];
+} ,
               title: {
                 text: 'Salary'
               }
@@ -145,11 +148,11 @@
             },
 
             series: [{
-              name: 'national average',
-              data: [46000],
+              name: '',
+              data: [38547],
               dataLabels: {
                 format: '<div style="text-align:center"><span style="font-size:25px;color:'
-                  + ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">£46,000</span></div>',
+                  + ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">£38,547.00</span></div>',
 
               },
               tooltip: {
@@ -168,7 +171,7 @@
               type: 'column'
             },
             title: {
-              text: 'Firms Creating New Design Jobs 2017'
+              text: 'Firms Creating New Design Jobs 2020'
             },
             subtitle: {
               text: ''
