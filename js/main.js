@@ -88,7 +88,7 @@
             title: null,
 
             pane: {
-              center: ['50%', '85%'],
+              center: ['50%', '75%'],
               size: '100%',
               startAngle: -90,
               endAngle: 90,
