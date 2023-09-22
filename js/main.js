@@ -7,6 +7,7 @@
           progress: true,
           history: true,
           center: true,
+        autoSlideStoppable: false,
 
           // Learn about plugins: https://revealjs.com/plugins/
           plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
