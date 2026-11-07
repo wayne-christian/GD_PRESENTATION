@@ -33,7 +33,7 @@
 
         Reveal.addEventListener('salary', function () {
           console.log('stats called!');
-          animatenum(39, '#decimals', 2);
+          animatenum(42, '#decimals', 2);
         });
         Reveal.addEventListener('jobs', function () {
           console.log('stats called!');
