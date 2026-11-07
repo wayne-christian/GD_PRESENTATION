@@ -37,7 +37,7 @@
         });
         Reveal.addEventListener('jobs', function () {
           console.log('stats called!');
-          animatenum(2849, '#jobs', 0);
+          animatenum(1100, '#jobs', 0);
         });
         Reveal.addEventListener('guage', function () {
           console.log('guags called!');
