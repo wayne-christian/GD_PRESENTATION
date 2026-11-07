@@ -150,7 +150,7 @@
 
             series: [{
               name: '',
-              data: [38547],
+              data: [42468],
               dataLabels: {
                 format: '<div style="text-align:center"><span style="font-size:25px;color:'
                   + ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">£38,547.00</span></div>',
